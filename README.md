@@ -61,7 +61,3 @@ Each password is encrypted **client-side** using the logged-in user's unique ID 
 - **Why:** Lightweight, fast, and reliable for AES encryption/decryption
 - **Result:** The server and database never store or see any plaintext credentials — only encrypted ciphertext strings.
 
-Example:
-```js
-encryptWithPassphrase(password, user.id);
-decryptWithPassphrase(encryptedValue, user.id);
