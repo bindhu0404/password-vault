@@ -6,7 +6,7 @@ This project fulfills the *Password Generator + Secure Vault* assignment require
 ---
 
 ## Live Demo
-[https://password-vault-p6nv.vercel.app/login](https://password-vault-lake.vercel.app/login)
+[Click here to use the app](https://password-vault-lake.vercel.app/login)
 
 
 ---
