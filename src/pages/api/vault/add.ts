@@ -8,7 +8,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   }
 
   try {
-    const { userId, website, username, password } = req.body;
+    const { userId, website, username, password, notes } = req.body;
 
     // ✅ Validate all fields
     if (!userId || !website || !username || !password) {
@@ -25,6 +25,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       userId,
       website,
       username,
+      notes: notes || "",
       password, // or `encryptedPassword` if encrypting here
       createdAt: new Date(),
     });
